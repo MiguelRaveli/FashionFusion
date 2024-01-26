@@ -1,0 +1,80 @@
+.login_container {
+  text-align: center;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.login_box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 20vw;
+  height: 55vh;
+}
+
+.title {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+
+.title svg {
+  font-size: 3em;
+  color: white;
+  margin-top: 12px;
+}
+
+.title a{
+  text-decoration: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: opacity 0.3s;
+}
+button:hover {
+  opacity: 80%;
+
+}
+
+form {
+  padding: 30px;
+}
+
+.google svg {
+  border: 2px solid rgb(0, 136, 255);
+  font-size: 4em;
+}
+
+.google svg:hover {
+  cursor: pointer;
+}

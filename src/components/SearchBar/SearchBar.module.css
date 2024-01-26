@@ -1,0 +1,39 @@
+
+.searchBar {
+    width: 40%;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: #E0E0E0;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .searchBar input {
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    margin-top: calc(10px);
+    background-color: #f7f7f7;
+  }
+  
+  .searchBar input:hover {
+    cursor: text;
+    opacity: 100%;
+  }
+  
+  .searchBar svg {
+    width: 10%;
+    color: #191919;
+    font-size: 2em;
+    transition: opacity 0.3s;
+  }
+  
+  .searchBar svg:hover {
+    opacity: 60%;
+    cursor: pointer;
+  }

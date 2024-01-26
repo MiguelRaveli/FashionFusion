@@ -1,0 +1,34 @@
+.Filters_container {
+  width: 100%;
+  height: 8vh;
+ background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #191919;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.filters h2 {
+  font-size: 1.3em;
+  text-decoration: underline;
+  transition: transform 0.3s, color 0.3s;
+  padding-bottom: 10px;
+}
+
+.filters h2:hover {
+  color: rgb(174, 202, 255);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.modal {
+  border: solid;
+}

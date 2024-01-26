@@ -1,0 +1,17 @@
+.info_product {
+  padding: 30px;
+  width: 60%;
+}
+
+.info_product h3 {
+  color: #d71920;
+}
+
+.Detalhes_do_produto p {
+  font-size: 2em;
+}
+
+.Tamanho select {
+  font-size: 1.5em;
+  width: 15%;
+}

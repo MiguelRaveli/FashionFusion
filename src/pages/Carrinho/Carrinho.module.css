@@ -1,0 +1,132 @@
+.Container_carrinho {
+  width: 100%;
+  height: auto;
+  min-height: 75.5vh;
+  display: flex;
+  justify-content: center;
+  background-color: #eceef3;
+  padding: 10px;
+  gap: 2em;
+}
+
+.carrinho {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.title {
+  width: 95%;
+}
+
+.title h1 {
+  color: #161616;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+}
+
+.produtos {
+  width: 95%;
+  height: auto;
+}
+
+.product {
+  width: 100%;
+  height: 20vh;
+  border-top: 1px solid #a5a5a5;
+  display: flex;
+  padding: 10px;
+}
+
+.img {
+  width: 20%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+
+.info h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: #000000;
+}
+
+.plus_less {
+  display: flex;
+  gap: 2em;
+}
+
+.plus_less:hover {
+  cursor: pointer;
+}
+
+.info svg {
+  color: rgb(255, 79, 79);
+  transition: transform 0.3s, color 0.3s;
+}
+
+.info svg:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(255, 25, 25);
+}
+.subtotal {
+  width: 95%;
+  border-top: 1px solid #a5a5a5;
+}
+.subtotal h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: #000000;
+}
+
+.fechar_pedido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+  height: 20vh;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.fechar_pedido h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: #000000;
+}
+
+.fechar_pedido button {
+  border-radius: 10px;
+}
+
+a {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: opacity 0.3s;
+  border-radius: 10px;
+}
+a:hover {
+  opacity: 80%;
+  color: #ffffff;
+  text-decoration: none;
+}

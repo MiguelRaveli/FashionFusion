@@ -1,0 +1,33 @@
+.ModalFilter_container {
+  width: 100%;
+  height: 100%;
+  animation-duration: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.filters {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.filters h1 {
+  color: #191919;
+  transition: transform 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Roboto", Times, serif;
+}
+.filters h1:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

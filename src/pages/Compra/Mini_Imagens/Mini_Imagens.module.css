@@ -1,0 +1,31 @@
+.Outras_imagens {
+  margin-top: 10px;
+  border: solid 1px gray;
+  width: 100%;
+  height: 10%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  border: 1px solid #a5a5a5;
+}
+
+.mini_imgs {
+  width: 20%;
+  border-radius: 10px;
+  height: 99%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #a5a5a5;
+  transition: transform 0.3s, border 0.3s, box-shadow 0.3s;
+}
+
+.mini_imgs:hover {
+  transform: scale(1.01);
+  border: 1px solid #ff6767;
+  box-shadow: 0.5px 0.5px 4px #ff6767;
+  cursor: pointer;
+}
