@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 
 import classes from "./Filters.module.css";
 
-import ModalFilter from "./NameFilters";
+import NameFilters from "./NameFilters";
 
 import { CurrentS } from "../../redux/searchSlice";
 import { selectedProductA } from "../../redux/selectedProductSlice";
@@ -14,7 +14,7 @@ const Filters = () => {
       <div className={classes.Filters_container}>
         {CurrentSearch === null && selectedProductAtual === null ? (
           <div className={classes.filters}>
-            <ModalFilter
+            <NameFilters
               option1="Calças"
               option2="Vestidos"
               option3="Calçados"

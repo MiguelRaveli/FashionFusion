@@ -1,4 +1,4 @@
-import classes from "./ModalFilter.module.css";
+import classes from "./Filters.module.css";
 import { useDispatch } from "react-redux";
 import { select_filter } from "../../../redux/filterSlice";
 import { IoMdArrowDropdown } from "react-icons/io";
